@@ -1,0 +1,188 @@
+.add-new-user-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-new-user-modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 500px;
+  max-width: 90%;
+  position: relative;
+}
+
+.add-new-user-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.add-new-user-modal-content hr{
+  margin-bottom: 25px;
+}
+
+.add-new-user-close-button {
+  background: none;
+  border-radius: 50%;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.new-user-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-new-user-form-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-new-user-form-row.two-columns {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.add-new-user-form-row label {
+  font-weight: 500;
+}
+
+.add-new-user-form-row input,
+.add-new-user-form-row select {
+  padding: 13px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+  font-size: 18px;
+}
+
+.add-new-user-form-row select {
+  font-size: 15px;
+}
+
+.add-new-user-form-row.two-columns > div {
+  width: 48%;
+  position: relative;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.form-actions button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-actions button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+}
+
+.form-actions button[type="button"] {
+  background-color: #ccc;
+  margin-left: 10px;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+}
+
+.password-wrapper {
+  position: relative;
+}
+
+.user-password-toggle {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.floating-label-input {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.floating-label-input input,
+.floating-label-input select {
+  width: 90%;
+  padding: 16px 12px 12px;
+  border: 1px solid #5d5858;
+  border-radius: 4px;
+  background: none;
+}
+
+.floating-label-input label {
+  position: absolute;
+  top: 16px;
+  left: 12px;
+  color: #7d7878;
+  font-size: 16px;
+  transition: all 0.2s;
+  pointer-events: none;
+}
+
+.floating-label-input input:focus + label,
+.floating-label-input input:not(:placeholder-shown) + label,
+.floating-label-input select:focus + label,
+.floating-label-input select:not([value=""]) + label {
+  top: -7px;
+  left: 8px;
+  font-size: 14px;
+  color: #101111;
+  background-color: white;
+  padding: 0 10px;
+}
+
+.select-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.select-container select {
+  width: 100%;
+  padding: 16px 12px 12px;
+  border: 1px solid #5d5858;
+  border-radius: 4px;
+  background: none;
+  appearance: none;    
+}
+
+.select-container::after {
+  content: '▼';
+  font-size: 12px;
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: #999;
+}
+
+.select-container select:focus + label,
+.select-container select:not([value=""]) + label {
+  top: -7px;
+  left: 8px;
+  font-size: 14px;
+  color: #101111;
+  background-color: white;
+  padding: 0 10px;
+}

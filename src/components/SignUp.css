@@ -1,0 +1,94 @@
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 500px;
+    max-width: 90%;
+    position: relative;
+  }
+
+  .signup-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .form-row.two-columns {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .form-row label {
+    margin-bottom: 5px;
+  }
+  
+  .form-row input {
+    padding: 13px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 90%;
+  }
+  
+  .form-row.two-columns > div {
+    width: 48%;
+  }
+  
+  .form-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .form-actions button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .form-actions button[type="submit"] {
+    background-color: #1b62afcf;
+    color: white;
+  }
+  
+  .form-actions button[type="button"] {
+    background-color: #ccc;
+  }
+  
+  
