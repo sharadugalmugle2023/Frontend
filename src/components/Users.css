@@ -1,0 +1,399 @@
+/* .active-status {
+  color: #18a389;
+}
+
+.users {
+  padding: 20px;
+  width: fit-content;
+}
+
+.users-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.users-page-header {
+  font-size: 1.5rem;
+}
+
+.users-search-add {
+  display: flex;
+  align-items: center;
+}
+
+.users-search-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.users-search-input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 15px;
+  width: 300px;
+}
+
+.users-search-icon {
+  position: absolute;
+  right: 10px;
+  color: #888;
+}
+
+.users__add-new-button {
+  background-color: #1b62afcf;
+  color: white;
+  border: none;
+  padding: 12px 12px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-left: 10px;
+}
+
+.users__add-new-button:hover {
+  background-color: #0056b3;
+}
+
+.users__content-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+.users__content-table th,
+.users__content-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.users__content-table th {
+  background-color: #f1f3f5;
+  font-weight: bold;
+}
+
+.users__content-table tbody tr:nth-of-type(even) {
+  background-color: #f9f9f9;
+}
+
+.users__content-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.users__edit-button,
+.users__delete-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.users__edit-button {
+  color: #007bff;
+}
+
+.users__delete-button {
+  color: #dc3545;
+}
+
+.users__content-table tbody {
+  display: block;
+  max-height: 520px;
+  overflow-y: auto;
+}
+
+.users__content-table tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.email-cell {
+  position: relative;
+}
+
+.email-tooltip {
+  display: inline-block;
+  position: relative;
+}
+
+.email-tooltip-text {
+  visibility: hidden;
+  width: fit-content;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.email-tooltip:hover .email-tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+.full-email-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.users__content-table th:nth-child(1),
+.users__content-table td:nth-child(1) {
+  width: 25%;
+}
+
+.users__content-table th:nth-child(2),
+.users__content-table td:nth-child(2) {
+  width: 30%;
+}
+
+.users__content-table th:nth-child(3),
+.users__content-table td:nth-child(3) {
+  width: 15%;
+}
+
+.users__content-table th:nth-child(4),
+.users__content-table td:nth-child(4) {
+  width: 15%;
+}
+
+.users__content-table th:nth-child(5),
+.users__content-table td:nth-child(5) {
+  width: 20%;
+}
+
+.loader {
+  font-size: 16px;
+  color: #333;
+  margin-top: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.active-status {
+  color: #18a389;
+}
+
+.users {
+  padding: 20px;
+  width: fit-content;
+}
+
+.users-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.users-page-header {
+  font-size: 1.5rem;
+}
+
+.users-search-add {
+  display: flex;
+  align-items: center;
+}
+
+.users-search-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.users-search-input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 15px;
+  width: 300px;
+}
+
+.users-search-icon {
+  position: absolute;
+  right: 10px;
+  color: #888;
+}
+
+.users__add-new-button {
+  background-color: #1b62afcf;
+  color: white;
+  border: none;
+  padding: 12px 12px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-left: 10px;
+}
+
+.users__add-new-button:hover {
+  background-color: #0056b3;
+}
+
+.users__content-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+.users__content-table th,
+.users__content-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.users__content-table th {
+  background-color: #f1f3f5;
+  font-weight: bold;
+}
+
+.users__content-table tbody tr:nth-of-type(even) {
+  background-color: #f9f9f9;
+}
+
+.users__content-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.users__edit-button,
+.users__delete-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.users__edit-button {
+  color: #007bff;
+}
+
+.users__delete-button {
+  color: #dc3545;
+}
+
+.users__content-table tbody {
+  display: block;
+  max-height: 520px;
+  overflow-y: auto;
+}
+
+.users__content-table tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.email-cell {
+  position: relative;
+}
+
+.email-tooltip {
+  display: inline-block;
+  position: relative;
+}
+
+.email-tooltip-text {
+  visibility: hidden;
+  width: fit-content;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.email-tooltip:hover .email-tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+.full-email-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Adjust column widths */
+.users__content-table th:nth-child(1),
+.users__content-table td:nth-child(1) {
+  width: 25%;
+}
+
+.users__content-table th:nth-child(2),
+.users__content-table td:nth-child(2) {
+  width: 30%;
+}
+
+.users__content-table th:nth-child(3),
+.users__content-table td:nth-child(3) {
+  width: 15%;
+}
+
+.users__content-table th:nth-child(4),
+.users__content-table td:nth-child(4) {
+  width: 15%;
+}
+
+.users__content-table th:nth-child(5),
+.users__content-table td:nth-child(5) {
+  width: 20%;
+}
+
+.loader {
+  font-size: 16px;
+  color: #333;
+  margin-top: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center; /* Center the spinner horizontally */
+  align-items: center;    /* Center the spinner vertically */
+}
